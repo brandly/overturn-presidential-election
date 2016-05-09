@@ -1,0 +1,18 @@
+1992
+none
+
+1996
+none
+
+2000
+AL, AK, AZ, AR, CO, FL, GA, ID, IN, KS, KY, LA, MS, MO, MT, NE, NV, NH, NC, ND, OH, OK, SC, SD, TN, TX, UT, VA, WV, WY
+
+2004
+FL, OH, TX
+
+2008
+none
+
+2012
+none
+
