@@ -2,7 +2,7 @@
 
 What if, in a previous U.S. presidential election, you controlled not just a single vote, but an entire state's worth of votes. Could you have changed the outcome of the election?
 
-Turns out, it depends heavily on the year.
+Turns out, it depends heavily on the year and what state you control, but the answer is usually no.
 
 ```
 1900
