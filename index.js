@@ -3,6 +3,8 @@ const _ = require('lodash')
 const electionData = require('presidential-election-data')
 const years = Object.keys(electionData)
 
+const statesThatMatterMap = {}
+
 years.forEach((year) => {
   // count up democrat, republican electoral votes
   const votes = electionData[year].votes
@@ -31,6 +33,10 @@ years.forEach((year) => {
     return winner(revisedDemocrat, revisedRepublican) !== winner(democratVotes, republicanVotes)
   })
 
+  overturns.forEach((state) => {
+    statesThatMatterMap[state] = true
+  })
+
   if (overturns.length) {
     console.log(overturns.join(', '))
   } else {
@@ -38,6 +44,14 @@ years.forEach((year) => {
   }
   console.log('')
 })
+
+const allStates = Object.keys(electionData[_.last(years)].votes).sort()
+const statesThatMatter = Object.keys(statesThatMatterMap).sort()
+
+const statesThatDont = allStates.filter((state) => !_.includes(statesThatMatter, state))
+
+console.log('States that have never had an effect on an election since 1900')
+console.log(statesThatDont.join(', '))
 
 function winner (dem, rep) {
   return dem > rep ? 'democrat' : 'republican'
