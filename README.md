@@ -89,6 +89,9 @@ none
 2012
 none
 
+2016
+none
+
 States that have never had an effect on an election since 1900
 CT, DC, DE, HI, IA, IL, MA, MD, ME, MI, MN, NJ, NM, OR, PA, RI, VT, WA, WI
 
