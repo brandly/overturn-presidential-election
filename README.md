@@ -102,6 +102,6 @@ CT, DC, DE, HI, IA, IL, MA, MD, ME, MI, MN, NJ, NM, OR, PA, RI, VT, WA, WI
 
 2000 was a heated election. 30 different states could have "single-handedly" changed the outcome.
 
-Out off all the elections that we have data for, only four of them would've had a different outcome if an entire state had reversed their position.
+Out off all the elections that we have data for, only five of them would've had a different outcome if an entire state had reversed their position.
 
 19 states have never had any influence since 1900.
