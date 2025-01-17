@@ -95,6 +95,9 @@ none
 2020
 CA
 
+2024
+none
+
 States that have never had an effect on an election since 1900
 CT, DC, DE, HI, IA, IL, MA, MD, ME, MI, MN, NJ, NM, OR, PA, RI, VT, WA, WI
 
